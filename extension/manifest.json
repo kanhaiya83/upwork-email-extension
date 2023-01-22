@@ -1,0 +1,15 @@
+{
+   
+    "content_scripts": [ {
+       "js": [ "content-script.js" ],
+       "css":["content.css"],
+       "matches": [ "https://mail.google.com/*"],
+       "run_at": "document_start"
+    } ],
+    "description": "Extension for auto-replying e-mails using Chat-GPT",
+    "manifest_version": 3,
+    "name": "Etai Gabbai Extension",
+    "permissions": [],
+    "version": "1.0.0"
+ }
+ 
